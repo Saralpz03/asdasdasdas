@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;}
+header img{
+    width: 100px;
+    float:left;
+    clear:both;
+}
+header h1{
+    color:orange;
+    font-family: "Comic Sans Ms", cursive;
+    font-style: italic;
+    font-weight: 900;
+    text-shadow: #000 5px 5px 15px;
+    text-align: center;
+    padding-top: 50px
+}
+header, nav, section{
+    width: 800px;
+    margin: auto;
+}
+li{
+    display: inline-block;
+    padding: 5px;
+    background-color: blue;
+    border-radius: 5px;
+   
+}
+ul{
+    text-align: center;
+}
+a{
+     color: white;
+    text-decoration: none;
+}
+header{
+   /* margin-bottom: 100px;*/
+}
+nav{
+    padding-top: 100px;
+}
+section img{
+    width: 300px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+p{
+    text-align: justify;
+}
+section{
+    margin-top: 50px;
+}
+footer{
+    background-color: orange;
+    color: white;
+   width: 760px;
+    margin: auto;
+    text-align: right;
+    margin-top: 50px;
+    padding: 20px;
+}
+span{
+    color: orange;
+    font-weight: bolder;
+}
+

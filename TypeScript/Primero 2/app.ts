@@ -1,0 +1,2 @@
+var myBool;
+myBool = true;

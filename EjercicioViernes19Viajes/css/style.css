@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+body {
+    background-color: rgb(143, 242, 255);
+}
+
+h1 {
+    margin-left: 40%;
+    margin-top: 120px;
+    position: absolute;
+    z-index: 1;
+    font-size: 50px;
+    background-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav {
+    z-index: 3;
+    /* Poner esto para que los links del nav funcionen, porque se romperan si popnes el fixed y los hermanos absolute */
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    align-items: center;
+    background-color: rgb(57, 215, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.a_londre,
+.a_nue,
+.a_par {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+}
+
+ul {
+    list-style: none;
+    align-items: center;
+    width: 800px;
+    padding: 0px 100px;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+
+/* Contenido */
+
+.contenido {
+    margin-top: 50px;
+    background-color: none;
+    height: auto;
+    width: 100%;
+}
+
+
+/* Londres */
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding: 20px 100px;
+}
+
+#cont_lond {
+    padding-top: 50px;
+    margin-top: -50px;
+    background-color: transparent;
+    width: 100%;
+    height: 500px;
+}
+
+.img_lond {
+    margin-left: 100px;
+}
+
+.img_lond img {
+    width: 600px;
+    float: left;
+}
+
+.texto_lond {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 100px;
+    text-align: justify;
+    color: white;
+    width: 700px;
+    float: left;
+}
+
+.texto_lond table,
+tr,
+td {
+    border: 2px solid black;
+}
+
+.texto_lond table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 600px;
+    height: 300px;
+}
+
+th {
+    color: rgb(0, 49, 95);
+    height: 60px;
+    font-size: 25px;
+    background-color: rgb(30, 145, 221);
+}
+
+td {
+    font-size: 18px;
+    height: 50px;
+}
+
+.fila_lond,
+.fila_nue,
+.fila_par {
+    background-color: rgb(109, 187, 240);
+}
+
+#cont_nue,
+#cont_par {
+    margin-top: 0px;
+    padding-top: 50px;
+    background-color: transparent;
+    width: 100%;
+    height: 500px;
+}
+
+
+/* Banner */
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    margin-top: 45px;
+    width: 100%;
+}
+
+
+/* FOOTER */
+
+.footer_cont {
+    width: 100%;
+    height: 300px;
+    background-color: #161616;
+}
+
+.redes {
+    width: fit-content;
+    height: 70px;
+    margin-left: 650px;
+}
+
+.img_face,
+.img_twi,
+.img_yt,
+.img_gma {
+    margin-top: 50px;
+    margin-left: 30px;
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+.img_face img,
+.img_twi img,
+.img_yt img,
+.img_gma img {
+    width: 30px;
+    height: 30px;
+}
+
+.copyr {
+    margin-top: 100px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    text-align: center;
+    color: #B4B4B4;
+}
+
+.linea1 {
+    background-color: white;
+    height: 1px;
+    width: 600px;
+    margin-left: 60px;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.linea2 {
+    background-color: white;
+    height: 1px;
+    width: 600px;
+    margin-left: 940px;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.informacion {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.info_enlace,
+.polit_enlace,
+.separacion {
+    padding-left: 10px;
+    display: inline-block;
+    color: white;
+}
+
+.informacion a {
+    color: white;
+}
+
+header {
+    width: 500px;
+    height: 100px;
+}

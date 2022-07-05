@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>sitio fanta</title>
+        
+        <link href="stilos/estilosform.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="imagenes/Logo.png">
+            <h1>Nueva bebida refrescante</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Presentación</a></li>
+                <li><a href="contacta.html">Contacta</a></li>
+            </ul>
+        </nav>
+        <section>
+<!--         Ponemos los atributos action y method, obligatorios, pero no vamos a ver su funcionamiento hasta que trabajemos con tecnologia de servidor
+___action se activa con el botón input type submit, y nos lleva al documento que gestiona la informacion del formulario
+___Method es la forma de envío de la informacion.
+GET que permitee envio de gran cantidad de informacion. Y es visible en la barra de direccion, por lo tanto es menos segura
+POST, permite menos cantidad de información pero encriptada. -->
+         <form action="*" method="get" >
+             <fieldset>
+                 <legend>Dinos qué producto te interesa:</legend>
+             <label for="n">Pon tu nombre</label>
+             <input required name="n" type="text">
+             <label for="e">email</label>
+             <input required name="e" type="email">
+                 <div class="check">
+                 <div>
+                 <input  type="checkbox">Fanta de naranja de 1 litro 
+                 </div>
+                     <div>
+                 <input type="checkbox">Fanta de naranja de medio litro 
+                 </div>
+                 <div>
+                 <input type="checkbox">Fanta de limón de 1 litro 
+                 </div>
+                 <div>
+                 <input type="checkbox">Fanta de limón  de medio litro 
+                     
+                     </div>
+                     </div>
+                 <input type="submit">
+                 <input type="reset">
+             
+            </fieldset> 
+        </form>
+        </section>
+        <footer>Telef: 0000000. Dirección: Alguna parte</footer>
+    
+</body></html>
